@@ -1,5 +1,5 @@
 ---
-title: Neurophysiology_1at_midterm_exam
+title: Neurophysiology_1st_midterm_exam
 
 ---
 
