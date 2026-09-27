@@ -146,7 +146,7 @@ title: Neurophysiology_1st_midterm_exam
 - 如果axon斷裂了，他沒有rough ER，soma就無法將蛋白質等東西運過去，那基本上這個axon就會被分解掉
 - 遠離soma的axon片段，會逐漸碎裂，髓鞘萎縮，之後由免疫細胞清除
 
-![image alt](https://www.cell.com/cms/10.1016/j.heliyon.2024.e40729/asset/6f481969-a96e-4062-971a-c6df39ce35e3/main.assets/gr1_lrg.jpg)
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/process_of_wallerian_degeneration_of_neuron_0926.jpg)
 
 #### motor protein (複習)
 ##### Kinesin
@@ -222,3 +222,308 @@ title: Neurophysiology_1st_midterm_exam
 > - microglia可以說是在胚胎發育的時候，不小心從血液跑進腦袋中的巨噬細胞，然後發育完畢後被關在大腦裡面
 
 ![image alt](https://as1.ftcdn.net/v2/jpg/05/47/93/66/1000_F_547936615_TlsvFoFYeIoR84rSsNr6oqkxIzkyB7b3.jpg)
+
+### glia cell
+#### PNS 的神經膠細胞
+- **Schwann cell**形成myelin sheath
+- **Satellite cell**目前還不知道功能
+
+#### CNS 的神經膠細胞
+- **oligodendrocyte:** 形成髓鞘
+- **microgila:** 進行吞噬作用，以及修剪神經纖維
+- **astrocyte:** 調節神經元外部環境、BBB生成
+- **ependymal cell:** 形成腦脊髓液
+
+### 來插話一下 🙂
+#### CCI and astrocyte hyperplasia
+- 咱們洪老師做一個實驗，看看給老鼠創傷型腦傷會發生啥事
+- 我們來分析下圖片...
+  - **sham** = 控制組做的假手術，為了避免必須的手術造成的數據影響，給正常老鼠也開顱
+  - **CCI** = 創傷型腦傷，導致膠細胞的增生和活化
+  - **GFAP = glial fibrillary acidic protein**，是一種存在於 astrocyte 中的中間絲蛋白，作為星狀膠細胞標誌物
+  - **gliptin**，是一種常見的糖尿病藥物，主要就是**DDP4酵素的抑制劑**
+- 可以發現底下的幾個gliptin藥物 (sitagliptin、vildagliptin)，在CCI發生時加入，可以降低星狀細胞增生的狀況，尤其是vildagliptin更明顯
+
+> [!Note]
+> 一般的腸泌素會在短時間內被酵素DDP4分解，所以這是**間接增加了腸泌素的濃度** ! 😲
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/gliptin_seems_to_reduce_astrocyte_hyperplasia_in_CCI_mice_0922.png)
+
+#### CCI and neurogenesis
+- 這張也是創傷型腦傷的相關實驗，CCI會使個體的辨識功能變差 (也就是變笨)，但是這些老鼠的神經元依然會增生，所以為什麼有了多的神經元卻反而不一定聰明?
+- 因此用**標記DCx蛋白**，看看 "新生的神經元" 發生甚麼事情，結果發現新神經元的生長位置和型態，伴隨膠細胞的過度活化，似乎變得不太正常，長相和排列方式和原神經元不一致
+
+> [!Note]
+> **長得多，不等於有用** 🙂
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/CCI_can_induce_abnormal_neuron_growing_by_using_DCx_as_label_0922.png)
+
+#### microgila morphology
+- 以下這張圖為老鼠被車撞後導致的大腦受損
+- 紫色的是Nissl stain的soma，而**深棕色的是microglia，在大腦受損後迅速聚集**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/aggregation_and_activation_of_microgila_in_mice_brain_0922.png)
+
+### a closer look
+#### astrocyte
+- 可以影響neurite是要生長還是萎縮
+- 穩定細胞外環境，維持神經功能正常
+- 他也有維持細胞外的鉀離子濃度的功能
+
+> 這是突觸的顯微鏡圖，周圍被astrocyte包圍，這其實阻擋了neuroteansmitter外露，導致不正常的突觸放電
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/astrocyte_protect_synapse_from_leakage_of_neurotransmitter_under_electron_microscopy_0923.webp)
+
+#### microgila
+- 巨噬細胞的一種，雖然和血漿中的巨噬細胞有相似特性，但是長相差異奇大
+- 它們是從卵黃囊遷移到形成的神經管，並且被封閉在裡面
+- 只是microgila是透過自我複製來維持數量，血漿裡的巨噬細胞是透過單核球分化形成
+- 他維持突觸功能的方式，具體方式就是修剪多餘或是不正常的突觸，這在大腦成熟時修剪神經元中扮演重要功能
+- 除此之外，活化的microglia可以感知ATP，當細胞的壞死導致細胞破裂，裡面的ATP以及其他物質 (DAMP) 會被microglia偵測到
+
+> [!Tip]
+> synapse不能太多，主要是因為大腦需要過濾、甚至去除對某些刺激的反應，過多的突觸可能導致幻聽幻覺。ex: 思覺失調症
+
+- 巨噬細胞會針對環境或是收到的cytokine，變換型態，這兩種型態在細胞內是相互拮抗的
+  - **M1 (classically activated microglia)** = 促發炎、防禦型
+  - **M2 (alternatively activated microglia)** = 抗發炎、修復型
+- 不過近年的單細胞分析研究認為，microglia 並非真的只有 M1 或 M2 兩種，而是存在一個連續光譜（continuum）
+- M1/M2 主要是方便教學與描述的簡化模型
+
+### myelin sheath and ependymal cell
+- 電子顯微鏡下的axon橫切面，無論是oligodendrocyte還是schwann cell，都有類似特徵: 會留一小部分的axon裸露，也被稱為朗氏節
+
+#### schwann cell
+- 也被稱為神經鞘細胞 (neurolemmocyte)
+- 一個細胞，一個髓鞘，一圈圈包覆，細胞核通常封閉在外層
+- 小的axon基本上比較沒有髓鞘，或是髓鞘結構不夠緻密
+- 而且axon是要主動釋放些蛋白質或是訊號，促進schwann cell纏上去形成髓鞘，小的axon往往訊號不夠強
+
+> [!Tip]
+> 這就叫做**天生不公平** 🙂
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/unmyelinated_and_myelinated_axons_under_electron_microscopy_0922.png)
+
+#### oligodendrocyte
+- 一個寡樹突細胞，形成多個髓鞘，這些髓鞘讓整個axon看起來是白色的 (所以叫做**白質**)
+- 而**灰質的顏色是因為缺乏髓鞘導致的**
+
+#### ependymal cells
+- 覆蓋在腦室lining的細胞
+- 形成一個結構叫做 **"脈絡叢" (choroid plexuses)**，主要分泌腦脊髓液
+
+![image alt](https://www.kindpng.com/picc/m/590-5900939_location-and-circulatory-pattern-of-cerebrospinal-fluid-hd.png)
+
+---
+
+## week 3
+### 靜止膜電位
+#### 從細胞膜開始
+- 細胞內外離子分布不均導致的內外電位差
+- 細胞膜的構造基本讓大部分可溶性的東西都進不去細胞，包含離子
+
+#### channel protein
+- 通常具有專一性 (蛋白質結構所致)，而且屬於被動運輸
+- 由於屬於被動的，該離子的進出就僅取決於離子在該環境中的濃度
+- 當然也有門控通道，只有在特定刺激下，通道才會打開
+
+#### ion pump
+- 利用能量來主動運輸離子，需要用能量的原因通常是因為該運輸方式是逆向濃度梯度移動
+- 例如Na-K pump
+
+![48_06bMembranePotentialB-L](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/resting_potential_ion_channels_0413.png)
+
+> [!Note]
+> 如果該分子會在水中解離，計算摩爾濃度時，就需要**乘以解離的離子數量** 😗
+
+- 由於細胞膜的脂雙層結構，因此在僅有細胞膜時，離子並不會移動
+- 而如果我們給予離子通道，這些離子就會因為滲透壓的差異，開始移動，直到兩邊的鈉離子和鉀離子濃度都相同
+- 由於離子通道的專一性，鉀離子通道就只能讓鉀離子通過，而鈉離子即使有濃度梯度差，也不能穿過細胞膜，反之
+- 離子濃度會受到溫度影響，所以不同溫度下，細胞內外的分布可能會有所不同
+- 這可以從Nernst equation得出
+
+#### 離子的濃度狀況
+- 離子移動的原因其實不只是因為濃度梯度，也會有電位梯度促使離子移動
+  - 鈣離子也有主動運輸，透過裂解ATP，細胞會刻意把鈣離子丟出細胞 (額，即使這膜電位差已經很高了)
+  - $K^+-Na^+$ pump在一個ATP裂解下，形成3鈉出，2鉀進
+- 假如說你單純看 $K^+$ 跟 $Na^+$ "自己本身導致的膜電位差"，你會發現: 
+   - 如果僅有鉀離子負責靜止膜電位，電位大概是-90 mV
+   - 如果只有鈉離子負責控制，電位大約為 +62 mV
+- 這就是人類的神經元能夠出現的電位範圍
+- 細胞外是鈉多鉀少，細胞內是鈉少鉀多
+- 當pump往內開，鈉離子親和度增加，鉀離子親和度降低
+- 當pump往外開，鈉離子親和度降低，鉀離子親和度增加
+- 鈣離子濃度在細胞外很低，在細胞內更低。原因是因為其會影響細胞級聯反映，主要作為訊息傳遞功能
+
+> [!Tip]
+> cell: calcium不要出來搞事情拜託 🙂🙂
+
+- 氯離子也是一樣，細胞外多，細胞內少
+
+#### 電化學梯度: a closer look
+- 電化學梯度主要由兩個東西影響。分別是濃度梯度跟電場梯度。
+- 屬於選擇性滲透 (**selective permeability**)
+
+![20145](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/nernst_equation_0412.png)
+
+#### 濃度梯度
+- 跟滲透壓有關。離子從濃度高的地方 → 濃度低的地方擴散
+- 假如說 $K^+$ 沒有帶電，那麼 $K^+$ 應該會均勻分布在整個燒杯裡面
+- 然而，我們發現， $K^+$ 明顯在左側比較多，濃度並沒有平衡
+- 因此只有一種可能，這些離子帶電，產生了電場梯度，拉動了 $K^+$ 離子，使其無法完全均勻分布
+- 同樣的邏輯也用在 $Na^+$ 上
+
+#### 電場梯度
+- 要是我在一杯氯化鉀溶液裡面植入一對電極，那麼離子會往與其電荷相反的電極跑去 (正離子跑向負極，反之)
+- 也就是說，我們可以理解成，離子會偏向 "中和電場" 的方向
+- 但是我們實際測量會發現，膜電位並不是0，原因就是因為，兩邊膜的離子濃度不一，濃度梯度產生的力量會促使$K^+$離子往濃度較低的方向跑過去
+- 同樣的邏輯也用在$Na^+$上
+
+#### Nernst equation
+- 在計算單一離子導致的靜止膜電位時，使用的公式如下:
+
+$$
+\begin{align}
+E_\text{ion} &=\frac{RT}{zF}\ \ln (\frac{[\text{ion}]_\text{out}}{[\text{ion}]_\text{in}})\\
+& \text{其中:}\\
+E & =\text{該離子造成的膜電位}\\
+z & =\text{離子電荷}\\
+R & =8.314\ J/mol\cdot K\\
+T & =\text{絕對溫度}\\
+F & =\text{法拉第常數:}\  96485\  C/mol
+\end{align}
+$$
+
+- 我們可以基本將其簡化成:
+
+$$
+\boxed{E_\text{ion}=\frac{62}{z}\ \text{mV} (\log\frac{[\text{ion}]_\text{out}}{[\text{ion}]_\text{in}})}
+$$
+
+#### 接下來我們來開始可怕的計算地獄吧... 🙂
+
+- 我們目前已知各個離子的梯度，如下:
+
+|ion types|細胞內濃度|細胞外濃度|
+|---|---|---|
+|鉀離子 $K^+$|140 mM|5 mM|
+|鈉離子 $Na^+$|15 mM|150mM|
+|氯離子 $Cl^-$|10 mM|120 mM|
+
+- 我們分別根據濃度在膜的內外放入氯化鉀跟氯化鈉
+- 如果該膜僅選擇性滲透鉀離子，那麼膜電位為:
+
+$$
+E_K = \frac{62}{+1}(\log\frac{5}{140})=-89.72\ \text{mV}
+$$
+
+- 如果該膜僅選擇性滲透鉀離子，那麼膜電位為:
+
+$$
+E_{Na}= \frac{62}{+1}(\log\frac{150}{15})=+62\ \text{mV}
+$$
+
+- 由於膜上面同時有鉀離子跟鈉離子，所以我們可以推測，無論是在靜止膜電位、去極化、過極化，膜電位基本上都會在大約 -90mV跟+62mV 之間
+- 因為膜對 $K^+$ 的通透性最高，靜止電位就接近 $K^+$ 的平衡電位 (通常在 -70 ~ -90 mV)
+
+#### how to caculate the free energy $\Delta G$ ?
+- 想要計算 "溶質從 $C_S$ 跑到 $C_E$ "，可用以下公式:
+
+$$\Delta G = RT \ \ln\frac{C_E}{C_S}+zF\Delta \psi$$
+
+- 此公式相當於 "運輸一莫耳的物質需要的能量"，並同時將濃度梯度跟電場梯度加起來
+- 此處的 $\Delta \psi$ 就是剛才計算的膜電位
+#### 舉栗 🌰
+- 一樣，我們的各個離子濃度如下:
+
+|ion types|細胞內濃度|細胞外濃度|
+|---|---|---|
+|鉀離子 $K^+$ |140 mM|5 mM|
+|鈉離子 $Na^+$ |15 mM|150mM|
+
+- 同時我們以剛才算的為例，定義膜電位: $-67.55\text{mV} \approx -0.068\text{V}$
+- 我們分別計算鈉離子跟鉀離子的跨膜運輸的自由能
+
+$$
+\begin{align}
+\Delta G_{Na^+} & = RT \ \ln\frac{[Na^+]_E}{[Na^+]_S}+zF\Delta \psi\\
+& =8.314\times 310\ \text{K}\times (\ln\frac{0.150}{0.015}) + 1\times 96485\times (+0.068)\\
+& =5935+6561=12.496\ \text{kJ/mol}\\
+\Delta G_{K^+} & = RT \ \ln\frac{[K^+]_E}{[K^+]_S}+zF\Delta \psi\\
+& = 8.314\times 310\ \text{K}\times (\ln\frac{0.140}{0.005}) + 1\times 96485\times (- 0.068)\\
+& = 8588+(-6561)=2.027\ \text{kJ/mol}
+\end{align}
+$$
+
+- 由於鈉鉀幫浦為 "3鈉出，2鉀進，使用1 ATP" ，因此我們可以推測每使用1 ATP，用來運輸的能量為:
+
+$$\Delta G_\text{total}=3\times 12.496 + 2\times 2.027= +41.542\ \text{kJ}$$
+
+- 雖然ATP水解的自由能為$-30.5\ \text{kJ/mol}$，但是在身體的狀態條件下，為高 ATP/低 ADP的比例，這樣會讓反應更偏向釋放能量。因此ATP水解的實際自由能變化可以達到 $-50\  \text{kJ/mol}$
+- 由於 $50>41.542$ ，鈉鉀幫浦確實有辦法用一ATP就做到 "3鈉出，2鉀進" 的目標 🐱
+
+#### potassium channel
+- 由四個亞基形成，每個單元中間都有pore loop，裡面的胺基酸序列導致四聚體會 "選擇性的" 讓鉀離子通過，
+- 其餘離子會因為構型差異而被擋在外面
+- 這種鉀離子通道由Shaker從果蠅中發現
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/1A68_Cristal%20Structure%20of%20the%20Tetramerization%20Domain%20of%20the%20Shaker%20Potassium%20Channel.html" width="100%" height="500px"></iframe>
+
+#### 膜電位的維持
+- polarize = 兩邊的離子分布不均勻導致的電位不平衡
+- astrocyte會把細胞外的鉀離子收進自己身體裡面，穩定其他神經元的膜電位
+
+### action potential
+- 動作電位從軸丘出發，沿著軸突移動
+- 透過刺激導致某些門控通道打開，進而導致離子的流動，因此產生動作電位
+- 又由於門控通道在神經去極化後的暫時失活，導致神經衝動會往單一方向傳遞
+- 主要分為三個步驟: 
+  - 去極化 (depolarization)
+  - 再極化 (repolarization)
+  - 過極化 (hyperpolarizaton)
+
+![image alt](https://simplemed.co.uk/images/Action_Potential_Graph.png)
+
+#### 從哪開始呢?
+- dendrite其實也會產生去極化，但是這並非動作電位，這只是因為接收到ligand或是其他反應導致
+- 然後soma會進行整合或是確認，然後決定是否要從軸丘啟動動作電位
+
+> [!Important]
+> 所謂的刺激強，並非去極化幅度強。去極化的幅度在正常情況下是不變的，但是較強的信號，會使動作電位的 "頻率" 變高
+
+- 如果在實驗中刻意注射電流，可以發現: 
+   - 注入弱電流，沒有動作電位，因為沒有超過某個threshold
+   - 注入中電流，產生動作電位
+   - 注入更強的電流，動作電位的波型**並未改變**，但是頻率增加
+- 在髓鞘化的軸突中，動作電位透過跳躍傳導 (**saltatory conduction**)，在node of Ranvier之間跳躍傳遞
+
+![image alt](https://cdn.britannica.com/45/54745-050-282C0AAE/current-action-potential-Conduction-axon-myelin-sheath.jpg)
+
+
+#### optogenetics
+- 也就是光遺傳學
+- 透過引入微生物的視蛋白 (opsin，有些可做為離子通道)
+- 只要透過光的刺激，這些被引入大腦中opsin就會打開，改變小鼠的大腦去極化，改變老鼠行為
+- 如果需要target特定的腦細胞，那就選擇該細胞會表現的promoter，然後把opsin的基因引入大腦
+- 只有可以識別該promoter的TF (通常僅存在於特定細胞)，才可以表現opsin基因
+- 舉幾個例子: 
+  - Channelrhodopsin: 照藍光 (460 nm) 可以促進鈉離子進入 (去極化)
+  - Halorhodopsin: 照黃光 (580 nm) 可以促進氯離子打開 (過極化)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/description_of_optogenetics_0924.png)
+
+#### 步驟簡介
+- 電壓門控鈉通道通常比鉀通道多
+- 去極化時，大量鈉離子往內流，同時鉀離子通道也打開，鉀離子流出
+- 然後鈉通道失活，但是鉀離子通到還開著，因此鉀離子繼續流出，過極化發生
+
+
+> [!Tip]
+> - 電壓依賴性 Na⁺ 通道是一種跨膜蛋白，主要由四個重複的結構域 (DI–DIV) 組成，每個結構域有六個跨膜螺旋 (S1–S6)
+> - S4 螺旋是電壓感測器，帶有正電荷，會隨膜電位改變而移動
+> - 失活門 (inactivation gate)位於通道的胞內環 (通常是 DIII–DIV 之間的連接 loop)，含有一個 "IFM 三肽" (isoleucine–phenylalanine–methionine)，像一個小球或 "蓋子"
+> - 在通道開啟後的毫秒內，IFM 三肽會像塞子一樣插入通道的內口，阻止 $Na^+$ 再流入 (失活)
+> - 復極化 → 復原: 當膜電位回到負值，通道回到關閉狀態，失活門移開，準備下一次開啟 🐱
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/voltage-gated_sodium_channel_structure_0413.png)
+
