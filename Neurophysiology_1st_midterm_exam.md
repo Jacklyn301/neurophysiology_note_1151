@@ -517,13 +517,230 @@ $$\Delta G_\text{total}=3\times 12.496 + 2\times 2.027= +41.542\ \text{kJ}$$
 - 去極化時，大量鈉離子往內流，同時鉀離子通道也打開，鉀離子流出
 - 然後鈉通道失活，但是鉀離子通到還開著，因此鉀離子繼續流出，過極化發生
 
+### 跟烏賊有關的實驗
+#### 為什麼選squid?
+- 1940年代的科技根本就沒辦法在脊椎動物的軸突上面插電極 (你自己試試看，呵呵 🙂)
+- 結果發現烏賊的軸突直徑大概1mm，至少肉眼可看見
+
+#### 實驗開始
+- 1939年左右，Hodgkin 和 Huxley開始測量軸突內部電位
+- 放置兩個電極，一個水平插入軸突，一個懸在軸突背側，整個都泡在充滿離子的溶液裡面
+- 這也是第一次他們看出了**overshoot**
+- 神經內部居然變得比外面還正，這件事超重要。因為如果只是在膜上漏電，根本不可能翻到正值。
+
+> [!Note]
+> 這暗示: 一定有某種正離子大量跑進細胞 😗
+
+#### voltage clamp
+- 1952年，戰爭剛打完沒多久，它們開始想要知道，當動作電位發生時，到底有哪些電流
+- 但是有一個問題，如果電位一直變化，根本不知道是哪個電流造成的，你總不能在暴風雨中測量風速吧?
+- 因此他們**利用儀器強制固定膜電位，固定於一個值 (通常是0 mV)**，如果偵測倒任何變化，機器就會透過產生相反的電流，把電流拉回來
+
+> [!Note]
+> 維持電位所需的電流 = 細胞膜本來想要產生的電流
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/overview_of_axon_potential_experiment_made_by_Hodgkin_and_Huxley_1001.png)
+
+#### 神秘的兩種電流
+- 他們在實驗中，發現了在voltage clamp的情況下，電流的產生可以分成兩種: 
+   - **電流A:** 內流狀態，持續時間較短，先出現
+   - **電流B:** 外流狀態，持續時間稍長，後出現
+
+- 然後他們分別去測量這兩種電流，到底是由甚麼電流造成，然後他們針對了兩種陽離子: $Na^+$ 和 $K^+$
+- 當拿掉鈉離子，僅僅有鉀離子的狀態下，出現外流的慢速電流，反之，出現的是內流的電流
 
 > [!Tip]
-> - 電壓依賴性 Na⁺ 通道是一種跨膜蛋白，主要由四個重複的結構域 (DI–DIV) 組成，每個結構域有六個跨膜螺旋 (S1–S6)
-> - S4 螺旋是電壓感測器，帶有正電荷，會隨膜電位改變而移動
-> - 失活門 (inactivation gate)位於通道的胞內環 (通常是 DIII–DIV 之間的連接 loop)，含有一個 "IFM 三肽" (isoleucine–phenylalanine–methionine)，像一個小球或 "蓋子"
-> - 在通道開啟後的毫秒內，IFM 三肽會像塞子一樣插入通道的內口，阻止 $Na^+$ 再流入 (失活)
-> - 復極化 → 復原: 當膜電位回到負值，通道回到關閉狀態，失活門移開，準備下一次開啟 🐱
+> 在動作電位中，鈉離子是內流的那一個，鉀離子是外流的那一個
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/axon_potential_experiment_made_by_Hodgkin_and_Huxley--separation_of_sodium_and_potassium_flow_1001.png)
+
+#### 加入毒素
+##### TTX
+- TTX target的是鈉離子通道
+- 如果是加入TTX，就不會有任何電流出現。注意，是細胞膜之間的電位幾乎沒有變化，不僅僅是鈉離子動不了而已，就連鉀離子也沒有特別動作，除非刻意改變膜電位，讓鉀離子流出
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/membrane_potential_with_blockage_of_sodium_channel_by_using_tetrodotoxin_1001.png)
+
+##### TEA
+- TEA主要target鉀離子通道
+- 如果加入TEA，會發現鈉離子依然有流入細胞，尤其是鈉離子，但是如果單純測量鉀離子，則鉀離子沒有移動跡象
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/membrane_potential_with_blockage_of_potassium_channel_by_using_tetraethylammonium_1001.png)
+
+> [!Important]
+> 所以，我們可以推測，鉀離子要流出前，生理上會出現鈉通道開啟的事件，然後才是鉀離子開始移動
+
+#### 鈉通道真的是只有打開嗎?
+- 當把軸突泡在一個 "沒有鈉離子" 的溶液時，當迫使膜電位變成0
+- 由於細胞外根本沒有鈉離子，因此當通道打開時，鈉離子反而紛紛跑出細胞，直到平衡
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/axon_potential_experiment_made_by_Hodgkin_and_Huxley--under_sodium_free_situation_1001.png)
+
+> [!Important]
+> - 這就明顯證明一件事情: 電位升高造成的後果，並不是刻意促使鈉離子流入細胞，而是僅僅控制通道有沒有打開
+> - 真正會影響離子流動方向的，依然是環境的電化學梯度
+
+### 深入了解結構化學
+#### sodium channel
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/5EK0_Human%20Nav1.7-VSD4-NavAb%20in%20complex%20with%20GX-936.html" width="100%" height="500px"></iframe>
+
+- 四聚體，每一個亞基都是由六條跨膜 $\alpha$ -helix形成，也就是S1~S6
+- 其中，**S4是個充滿正電荷的存在**，上面很多Arginine (++++++)
+- 在膜內較負電的時候，S4會被吸向內側，這很好理解
+- 當去極化突然發生時，對S4的拉力下降，S4就往上跑，整個亞基被拉起來，導致通道打開
+- 失活門 (inactivation gate)位於通道的胞內環 (通常是 DIII–DIV 之間的連接 loop)，含有一個 "IFM 三肽" (isoleucine–phenylalanine–methionine)，像一個小球或 "蓋子"
 
 ![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/voltage-gated_sodium_channel_structure_0413.png)
 
+#### 作用
+- 他們幾乎在沒有延遲的情況下迅速打開，打開時間持續約一毫秒 
+- 之後會有一段時間，該channel無法再被打開，因為其結構被一**寡肽鏈連結的domain (也就是ball-and-chain) 堵住**，我們將其稱為**失活 (inactivate)**
+- 之後等到膜電位下降到靜止狀態時，channel才恢復原狀，**等待下一次的去極化 (deactivate)**
+
+> [!Important]
+> **inactivate** $\ne$ **deactivate** 😗
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/voltage-gated-sodium-channel-internal-gate-mechanisms_1001.png)
+
+- 可以分為絕對不反應期，跟相對不反應期
+
+> [!Tip] 
+> - **絕對不反應期 (absolute):** 主要成因是因為**channel的inactivate**，洞被塞住
+> - **相對不反應期 (relative):** 鈉離子通道是deactivate，可以因為超過threshold而打開，只是**因為鉀離子流出太多，導致暫時更難被去極化**
+
+#### epilepsy
+- 大腦會同時有興奮性神經訊號或是抑制性神經訊號，去調節大腦的活動
+- 當因為遺傳問題或是其他機械損傷，就會導致大腦不正常放電，這就會導致癲癇
+  - **generalized epilepsy:** 叫做全腦性癲癇，有些癲癇是區域性的，但是長期發展後可能成為全腦性癲癇
+  - **seizure:** 通常指的是癲癇的症狀，因為一般人也可以因為某些異常刺激造成癲癇症狀，但是並非病理上的epilepsy
+
+![image alt](https://thumbs.dreamstime.com/z/d-medical-illustration-human-epilepsy-seizures-background-brain-218984568.jpg)
+
+- 一些epilepsy的突變是因為門控鈉通道的基因點突變導致
+- 有些時候，兒童容易因為發燒而導致seizure發作 (這也被稱為熱痙攣)
+- 而在長大後，抑制型迴路的強化使系統較為穩定
+
+#### 聚集位置
+- **通常在軸丘的地方，比較多鈉通道**，畢竟他是動作電位的起始點，因此可以敏感偵測該細胞在各處接收到的信息
+- 細胞的電生理特性和該細胞的離子通道種類、或是該細胞的功能有關係
+- 例如你戴著手表，剛開始有感覺，到後面，**大腦會過濾或是未計算到這些信號**，你就感覺不到手表的存在 (也就是適應)
+
+#### 鈉通道相關的毒素 
+##### 抑制劑
+- **tetrodotoxin (TTX):** 會抑制或是使鈉通道失活，導致麻痺，主要來自於河豚等生物
+- **saxitoxin:** 也是block鈉通道，主要來自於貽貝等雙殼綱生物，因為濾食，累積一些藻類的毒素造成
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/tetrodotoxin_structure_1001.png)
+
+##### 興奮劑
+- 這些會導致鈉通道活化的時間延長，或著是失活的時候做的不完全，導致不反應期消失
+- 包含**batrachotoxin、veratrdine、aconitine**等
+
+#### 局部麻醉的效果
+- lidocaine是一種麻醉藥，主要用於局部麻醉，他可以避免動作電位出現，他會結合在鈉通道的S6 alpha helix，使其失活
+- 除此之外，他也有止癢的效果
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/lidocaine_structure_1001.png)
+
+> [!Note]
+> - 全身麻醉主要target網狀結構系統，可以影響你的arousal跟sleeping，那全身麻醉基本既是把這系統shutdown
+> - 例如**propofol**這種藥物 (也被稱為牛奶針)
+
+![image alt](https://laskerfoundation.org/wp-content/uploads/2021/01/2018clinical_f1-copy.jpg)
+
+### 最後的最後... 🐱
+#### 總結 
+- **超過threshold:** 去極化夠多
+- **rising:** 鈉離子通道開啟，離子迅速流入，膜電位迅速上衝，
+- **overshoot:** 膜電位超過0 mV，最高到65 mV
+- **falling:** 當超過30mV，鉀離子通道開啟，同時鈉離子通道失活，鉀離子流出細胞
+- **undershoot:** 鉀離子持續流出細胞，導致過極化
+
+#### 補充 cerebral cortex
+- 大腦皮質有六層，由外而內為:
+  - 分子層，**molecular layer**，少量神經元
+  - 外顆粒層，**external granular layer**，小型星狀細胞跟顆粒細胞
+  - 外錐體層，**external pyramidal layer**，中小型椎體細胞
+  - 內顆粒層，**internal granular layer**，密集顆粒細胞
+  - 內錐體層，**internal pyramidal layer**，大型Betz錐體細胞
+  - 多形細胞層，**polymorphic layer**，多型態神經元
+
+![image alt](https://media-us.amboss.com/media/thumbs/big_5c9b839e6674b.jpg)
+
+
+
+
+---
+
+## week 4
+### 電信號突觸
+- 神經跟神經之間也會有**細胞連結，例如gap junction**，也就是平滑肌上看到的那種東西
+- 甚至，即使是**樹突跟樹突間**，也有gap junction
+- **post-synaptic potential:** cell 1受到刺激出現電訊號，cell 2也會有反應，只是沒有大到說可以超過threshold
+- 這種反應幾乎就是同步的 **(synchronization)**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/post-synaptic_potential_with_the_photo_of_two_dendrites_under_TEM_1001.png)
+
+### 化學突觸
+- 主要透過neurotransmitter傳遞信息，從突觸前丟到突觸後
+- 可以看到突觸前神經元的軸突末端有一堆粒線體，還有大大小小不同的囊泡
+- dense core vesicle: 這裡面的神經傳遞物可能是分子非常大的神經肽，因此透光度較差，囊泡顆粒較大
+
+> [!Warning]
+> 底下這張圖我再秀一次不要忘記了 !!! 🐱
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/synapse_under_electron_microscopy_0915.jpg)
+
+#### 突觸排列方式跟形狀
+
+- **axodendritic:** 軸突碰樹突
+- **axosomatic:** 軸突碰細胞本體
+- **axoaxonic:** 軸突碰另一個軸突 (可以去攔截另一個細胞軸突的傳遞，或是加強，看情況)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/synapse_types_1001.webp)
+
+> [!Tip]
+> - axon其實有機會**在末端產生分岔**，而這些分岔都可以釋放囊泡，可以一次溝通多個細胞
+> - 例如，運動終版的軸突末端就是分岔的，這些運動神經元會分泌乙醯膽鹼，使骨骼肌收縮
+> - 也可以是**軸突末端整個包覆細胞本體**的狀態
+> - 甚至軸突可以**扁平化**，一次接觸到更多的神經 !! 😲😲
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/sizes_and_shapes_of_CNS_synapse_1001.png)
+
+#### 分化的對稱形態
+
+- 突觸前細胞膜跟突觸後細胞膜其實是有分化、增厚的現象
+   - 如果突觸前跟突觸後的細胞膜**分化不對稱 (asymmetry，一邊厚一邊薄)**，通常是**興奮性神經傳遞物**傳遞
+   - 相反，如果兩方細胞膜**分化對稱 (symmetry)**，通常就是**抑制性神經傳遞物**傳遞
+
+### 突觸間隙發生啥事
+#### 首先是神經傳遞物 🙂
+- 請各位至少看得懂，謝謝 🫠
+
+
+| 類別 | 代表性神經傳遞物 | 功能與特色 |
+| --- | --- | --- |
+| **Amino acids** | **Glutamate** | 主要的興奮性神經傳遞物，促進 EPSPs，參與學習與記憶 (長期增強 LTP)。 |
+|  | **GABA ( $\gamma$ -aminobutyric acid)** | 主要的抑制性神經傳遞物，開啟 Cl⁻ 通道，造成 IPSPs，維持神經穩定。 |
+|  | **Glycine** | 在脊髓與腦幹常見，抑制性，幫助運動協調。 |
+| **Biogenic amines** | **Acetylcholine (ACh)** | 在神經肌肉接合處引起肌肉收縮；在中樞參與注意力、學習。 |
+|  | **Dopamine** | 調控動作、獎賞與動機；失衡與帕金森氏症、成癮相關。 |
+|  | **Norepinephrine (Noradrenaline)** | 參與覺醒、注意力、交感神經反應。 |
+|  | **Serotonin (5-HT)** | 調控情緒、睡眠、食慾；抗憂鬱藥常作用於此。 |
+|  |**histamine** |也會影響神經，讓人嗜睡|
+| **Neuropeptides** | **Substance P** | 傳遞疼痛訊號。 |
+|  | **Endorphins** | 內生性阿片類，抑制疼痛，產生愉悅感。 |
+| **Gases** | **Nitric oxide (NO)** | 非囊泡釋放，直接擴散；調控血管擴張、突觸可塑性。 |
+|  | **Carbon monoxide (CO)** | 也可作為訊號分子，調控神經傳導。 |
+| **其他** | **ATP** | 可作為神經傳遞物，調控痛覺與神經調節。 |
+|  | **Endocannabinoids** | 逆行性傳遞，調控突觸釋放，與食慾、痛覺、情緒相關。 |
+
+#### exocytosis
+- soma本身製造神經傳遞物，包含轉錄、轉譯、修飾等等
+- 分泌囊泡會透過微管跟motor protein的kinesin運到軸突末端
+- 一旦感受到動作電位傳到軸突末端，胞吐作用 (exocytosis) 發生，囊泡融合到細胞膜，使神經傳遞物釋出
+- 胞吐作用的級聯反應由**鈣離子**流入軸突末端觸發
+
+
+![image alt](https://biologynotesonline.com/wp-content/uploads/2023/06/20200424-diagram-synaptic-transmission.webp)
