@@ -742,5 +742,177 @@ $$\Delta G_\text{total}=3\times 12.496 + 2\times 2.027= +41.542\ \text{kJ}$$
 - 一旦感受到動作電位傳到軸突末端，胞吐作用 (exocytosis) 發生，囊泡融合到細胞膜，使神經傳遞物釋出
 - 胞吐作用的級聯反應由**鈣離子**流入軸突末端觸發
 
-
 ![image alt](https://biologynotesonline.com/wp-content/uploads/2023/06/20200424-diagram-synaptic-transmission.webp)
+
+#### 鈣離子流入
+- 鈣離子其實可以結合很多種蛋白質，進而 trigger 級聯反應
+- SNAREs是在細胞膜上面的矛，可以把囊泡拉近細胞膜一點
+- Ca 結合 **synaptotagmin**，促進 SNARE-mediated membrane fusion
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/SNARE_protein_cycle_1007.jpeg)
+
+#### 補充
+- 細胞膜上面有**t-SNARE**，而囊泡上有**v-SNARE**跟感知鈣離子的**synaptotagmin**
+- synaptotagmin會跟SNAREs一起結合，**形成複合體**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/SNARE_complex_including_syntaxin_VAMP_and_SNAP_1007.jpg)
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/7BV6_Crystal%20structure%20of%20the%20autophagic%20STX17-SNAP28-VAMP8%20SNARE%20complex.html" width="100%" height="500px"></iframe>
+
+#### G蛋白偶聯受體
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/G-protein_coupled_recepter_and_gated_ion_channel.jpg)
+
+- G-protein coupled receptor，GPCR是一種跨膜蛋白，由7個 $\alpha$ -helix 組成
+- **很多接收神經傳遞物的受體都是GPCR**，例如多巴胺受體、血清素受體等等
+- 最經典的 heterotrimeric G protein 就是...
+
+$$\boxed{G\alpha + G\beta + G\gamma}$$
+
+- 其中 $G\alpha$ **綁著 GDP/GTP**
+- 在**未活化狀態時**，三個亞基接在一起，並且 $\alpha$ 連接GDP，也就是...
+
+$$G\alpha-GDP \cdot G\beta\gamma$$
+
+- 當ligand接上去時，會導致G蛋白活化， $\alpha$ **將GDP轉換成GTP**，並且和另外兩個亞基分離，也就是...
+
+$$G\alpha-GTP + G\beta\gamma$$
+
+- 這兩個東西可以**各自當訊息分子**，去影響不同的細胞級連反應 😏
+
+#### $G_s$ , $G_i$ and $G_q$
+- 如果是 $G_s$ 類型的G protein，會刺激下游活化環腺苷酸酶，產生cAMP，進而活化PKA，促進下游級聯反應，也就是...
+
+$$\boxed{G_s \rightarrow Adenylyl\ cyclase\uparrow \rightarrow cAMP\uparrow \rightarrow PKA\ activity \uparrow}$$
+
+- 如果是 $G_i$ 類型的G protein，是走反方向: 
+
+$$\boxed{G_o \rightarrow Adenylyl\ cyclase\downarrow \rightarrow cAMP\downarrow \rightarrow PKA\ activity \downarrow}$$
+
+- $G_q$ 走的方式不太一樣，完全是另外一個pathway，主要是活化PLC $\beta$ 酵素，其裂解 $PIP_2$ 產生 $IP_3$ + DAG
+- DAG 可以活化PKC，而 $IP_3$ 能夠促進鈣離子濃度的上升，也就是: 
+
+$$ \boxed{ G_q \rightarrow PLC\beta \rightarrow PIP_2\rightarrow IP_3 + DAG \rightarrow Ca^{2+} \uparrow +PKC\ actinity\uparrow}$$
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/G-protein_types_in_G-protein_coupled_receptor_1007.png)
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/9T7Q_Cryo-EM%20structure%20of%20EA-Ri-112-bound%20D3%20dopamine%20receptor%20with%20mini-Go.html" width="100%" height="500px"></iframe>
+
+#### 作用後的調節
+##### autoreceptor
+- 當autoreceptor偵測到神經傳遞物太多，**它會傳遞反應，讓囊泡不要被釋放太多 (負調控)**
+- 有時候透過影響autoreceptor (例如用拮抗劑或是agonist)，可以影響神經的活化或是抑制
+
+##### 再回收或是分解
+- 胺基酸或是amine類的神經傳遞物質皆透過擴散傳出去
+- **transporter protein** 會把這些神經傳遞勿再回收 (**reuptake**)
+- **degradation enzyme** 則會在突觸間隙直接分解神經傳遞物
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/synapse_structure--including_reuptake_transporter_autoreceptor_and_serotonin_packaged_in_vesicle_1007.jpg)
+
+
+#### 乙醯膽鹼
+- **ACh，acetylcholine**
+- 可以被乙醯膽鹼酯酶 (**AChE, acetylchoinesterase**) 分解成乙酸跟膽鹼
+- 之後膽鹼會被回收
+- 該神經傳遞物主要作用在周邊神經、骨骼肌等等
+
+$$ACh\xrightarrow{AChE} choline + acetate$$
+
+##### inhibitor
+- 乙醯膽鹼酯酶抑制劑，主要用來治療重症肌無力 (**myasthenia gravis**，抗體結合了乙醯膽鹼受體導致)
+- 有機磷 (**organophosphate**) 也是作用在此東西上，會抑制AChE活性，導致過度的乙醯膽鹼相關途徑活化，導致肌肉痙攣
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/structure_and_example_of_organophosphate_based_pesticides_1007.png)
+
+### EPSP and IPSP
+#### EPSPs, Excitatory Postsynaptic Potentials
+- 通常是配體門控的 $Na^+$ 通道 或非專一性陽離子通道 (可允許 $Na^+$ 進入，有時也允許少量 $K^+$ 外流)
+- $Na^+$ 內流 → 使膜電位去極化，導致膜電位更接近閾值，增加動作電位產生的可能性
+- 神經傳遞物質例子: 
+  - **glutamate** (主要的中樞興奮性神經傳遞物質)
+  - **acetylcholine** (神經肌肉接合處)
+
+#### IPSPs, Inhibitory Postsynaptic Potentials)
+- 通常是配體門控的 $Cl^⁻$ 通道 或 $K^+$ 通道，可能是:
+  - $Cl^⁻$ 內流 → 使膜電位更負（超極化）
+  - $K^+$ 外流 → 也使膜電位更負
+- 導致膜電位遠離閾值，降低動作電位產生的可能性
+- 神經傳遞物質例子: 
+  - **GABA** ( $\gamma$ -aminobutyric acid，中樞神經的主要的抑制性神經傳遞物質)
+  - **glycine** (在脊髓常見)
+
+#### summation
+- 不同突觸產生的EPSPs導致的局部膜電位，其實可以加成起來，促進去極化狀態超過threshold
+- 而一旦整合之後，超過threshold，就會促進軸丘觸發動作電位
+- 當然，EPSP也可以跟IPSP加成，這時整合後是否會導致動作電位，就不一定
+
+> [!Tip]
+> 就有點像是在做數學，抑制型訊號-1，興奮型信號+1，全部加加減減，看看最後是大於0 (軸丘去極化) 還是小於0 (軸丘過極化) 🐱
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/summation_of_postsynaptic_neuron_0413.png)
+
+- 很多個synapse一起放電一次，叫做**spatial summation** (空間性加成)
+- 一個synapse連續放電好幾次，叫做**temporal summation** (時間性加成)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/spatial_and_temporal_summation_1007.png)
+
+#### 小比較
+
+|特徵|action potential|EPSPs|
+|---|---|---|
+|**刺激狀況**|全有全無 (all or none)|疊加、梯度型 (graded)|
+|**如何打開離子通道**|膜電位去極化|興奮性神經傳遞物 (如ACh) 結合受體|
+|**再極化的方式**|電壓門控鉀通道打開|細胞內正電荷，隨著時間、距離減少|
+|**影響範圍**|一整個神經元的axon|頂多幾毫米，區域性的電位改變|
+|**有沒有去極化導致的 "鈉通道開啟正回饋"** |有 ✅|無 ❎|
+|**最高膜電位**|約 +40 mV|約 0 mV|
+|**有無summation**|無 ❎|有 ✅|
+|**有無不反應期**|有 ✅|無 ❎|
+|**藥物影響例子**|被**tetrodotoxin**影響|被**有機磷農藥**影響|
+
+### 樹突的property
+- 跟軸突一樣，這傢伙也是類似電線一樣
+- 要是沒有髓鞘之類的東西包覆，這些離子很容易就跑出去 (也就是漏電)，離刺激點越遠，膜電位變化越小
+- 不過通常dendrite比較沒有髓鞘的結構避免他漏電
+
+#### synaptic inhibition
+- 也就是突觸前神經元釋放抑制行神經傳遞物 (Gly, GABA)，這會使突觸後神經元出現過極化
+- 或是簡單來說，IPSP 🙂
+
+#### 殺出一個程咬金
+- 有些時候，即使你傳遞一個EPSP，這訊號在傳遞給soma前，可能會連接一個抑制型突觸
+- 然後這個攔截就把原本的EPSP訊號弄沒了
+
+> [!Note]
+> - 這也稱為**shunting inhibition** 😗
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/overview_of_shunting_inhibition_in_dendrites_of_neurons_1007.png)
+
+#### 突觸前抑制
+- 除了在樹突攔截、抵銷電位改變，**其實也可以直接在axon的末端攔截**
+- 例如axon A好好傳遞自己的動作電位，但是axon B (抑制性神經元) 在半路攔截，進而降低神經衝動導致的胞吐作用反應
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/presynaptic_inhibition_on_axons_of_neurons_1007.png)
+
+#### 一對多跟多對一
+- **divergent pathway**: 一傳給多，例如中樞神經信號傳給周邊神經
+- **convergent pathway**: 多傳給一，例如周邊神經信號的訊息整合進中樞神經
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/divergent_and_convergent_pathway_in_neuron_system_1007.png)
+
+### 補充: 視細胞的作用
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/retinal_structure_and_photoreceptor_cells_1007.jpg)
+
+- 視細胞利用opsin感光後，傳遞信息給下游
+- 通常來說:
+  - 視桿細胞的感光蛋白 = **rhodopsin**
+  - 視錐細胞的感光蛋白 = **photopsin**
+  - **無光時cGMP高，離子通道去極化**
+  - **有光時cGMP低，離子通道過極化** 
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/respond_of_photoreceptor_rod_cell_to_light_1007.png)
+
+- 視細胞會**釋放Glu**，傳給**bipolar cell**，不過這會導致它抑制或是活化，**取決於該bipolar cell的類型**，有些可能是會抑制繼續傳遞信號，有些則是刺激
+
