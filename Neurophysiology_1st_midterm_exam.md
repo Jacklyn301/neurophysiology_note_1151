@@ -916,3 +916,216 @@ $$ACh\xrightarrow{AChE} choline + acetate$$
 
 - 視細胞會**釋放Glu**，傳給**bipolar cell**，不過這會導致它抑制或是活化，**取決於該bipolar cell的類型**，有些可能是會抑制繼續傳遞信號，有些則是刺激
 
+---
+
+## week 5
+### 簡介
+- **neurotransmitter system** 通常會包含: 
+  - 傳遞物的合成
+  - 囊泡包裝、運輸
+  - 傳遞物再回收或是分解
+  - 神經傳遞物跟receptor的反應
+
+![image alt](https://biologynotesonline.com/wp-content/uploads/2023/06/20200424-diagram-synaptic-transmission.webp)
+
+#### ACh
+- 例如ACh的兩個受體，就是nicotinic ACh receptor跟Muscarinic ACh receptor (兩者分別可以各自跟兩個物質-- **菸鹼跟麥斯卡林**，結合，兩者皆屬於**agonist**)
+
+> [!Tip]
+> - **agonist**，受體促效劑
+> - **antagonist**，受體抑制劑
+
+#### Glu
+- 包含NMDA、AMPA、kainate receptor，其中後兩者**主要就是結合受體就會打開通道**，而**NMDA還需要偵測到去極化現象，才可以移開鎂離子**
+
+> [!Note]
+> ##### 補充 😗
+> - atropine: 散瞳劑的成分，mAChR antagonist
+> - Phenylephrine: 緩解鼻塞， $\alpha$ receptor agonist
+> - Isoproterenol: 治療心搏過緩，強心劑之一， $\beta$ receptor agonist
+> - Propranolol: 可以治療高血壓跟心絞痛， $\beta$ receptor antagonist
+> - Suramin: 一種作用廣泛的藥物，歷史上用於治療錐蟲病
+
+#### 補充: 神經傳遞物的發現
+- 雖然之前就已經有神經傳遞物的概念，但是是直到1970s年代，才發現不少當時用的藥物，其實就是跟神經傳遞物的receptor有交互作用
+- 因此，他們其實可以用這些藥物，去分析這些受體，也就出現了一種 **"先分析受體，再找到對應的神經傳遞物" 的狀態**
+- Solomon Snyder 當時在研究的就是**opiates**，這是一大類藥物的分類，這種藥物在醫療中十分重要，但是也常常被濫用
+- opiates的作用包含**疼痛緩解，欣快感 (euphoria)，有時會導致呼吸抑制跟便秘問題**
+- 當時他就以典型的兩個opiate，也就是morphine跟heroin做研究
+- 他認為這些化學物質，既然對大腦有影響，該不會是**某受體的agonist**吧? 😗
+
+#### 實驗介紹
+- 為了驗證這個假說，他將放射標記的opiate物質，然後把這東西少量加在神經元細胞膜附近
+
+> [!Important]
+> - opiates: 來自罌粟萃取的物質
+> - opioids: 能夠作用在相關受體上，甭管你來自罌粟還是人體自帶還是化學合成的物質們 🙂
+
+- 他們認為如果發現只有膜上有附著opiate，那應該就是因為膜上某個蛋白質跟其結合
+- 結果它們確實在小鼠的腦切片上面看到放射標記，其中顏色較深的地方，信號較高，opiate較多
+
+> [!Tip]
+> - 這種用放射標記研究受體的方法，也被稱為**ligand-binding method**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/opiate_receptor_binding_to_a_slice_of_rat_brain--experiment_made_by_Snyder%2C%201986_1014.png)
+
+- 這些receptor原本是接收**內源性的opioid，例如endorphins跟enkephalins**
+- 藥物濫用導致的戒斷症狀，包含類似腎上腺素或是交感神經過度活化的現象等
+- Methadone 主要是透過口服，因此藥效較為緩和，效果也較為延遲
+- 雖然其也是 $\mu$ receptor agonist，但是持續時間長，不會像是 "過山車" 一樣起起伏伏
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/normethadone_structure_1015.png)
+
+#### 撿起來再回收
+- 突觸末端會透過transporter "主動運輸進" 軸突末端，主要透過co-transport，通常是跟鈉離子共運輸
+- 同時，突觸囊泡也有transporter，也是透過主動運輸濃縮在囊泡中，主要是counter-transport，透過丟出氫離子，換回一個神經傳遞物
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/co-transport_and_counter-transport_of_neurotransmitter_in_synapse--take_GABA_and_glutamate_for_example_1014.png)
+
+> [!Tip]
+> ACh的再回收，**主要回收的是choline**，而acetate會先被AChE分解後留在軸突外面
+
+### 標記和偵測方法
+#### immunohistochemistry
+- 也稱為免疫組織化學染色
+- 利用抗體辨識組織中的特定 antigen，再透過可視化系統把它的位置顯示出來 (所以抗體上面有可見的marker，尤其是在不變區)
+- 例如兒茶酚胺的合成路徑酵素之一: **tyrosine hydroxylase (TH)**，我們就可以使用針對TH的抗體，讓TH染色
+- 就可以知道哪些細胞可能跟腎上腺素或是正腎上腺素有關係
+
+> [!Tip]
+> - 甚至你可以用多個抗體，標記多個soma，產生多個花花綠綠，不同種類的neuron顯現
+> - 這也被稱為**multiplex immunofluorescence**
+> - 此方法**尤其在癌症學裡面常見**
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/multiplex-immunofluorescence-IF-using-tyramide-signal-amplification-TSA_1014.png)
+
+##### Direct method
+- 主要就是一抗為主，步驟更少，顯示結果速度快，但是比較難放大訊號
+
+##### Indirect method
+- 主要分為一抗 (結合epitope)，以及二抗 (結合一抗)，這樣就可以把marker的訊號放大 (因為有更多個標記系統)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/indirect_and_direct_immunohistochemistry_1015.png)
+
+#### brainbow
+- 用基因工程技術，直接讓不同神經元表現出不同螢光顏色
+- 不過就是只能染色，不能分辨neuron種類就是了 🤣
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/the-Brainbow-imaging-of-the-rat-hippocampus-neuronal-population_1015.png)
+
+
+#### in situ hybridization
+- 原位雜交，主要是用標記的probe去雜交該細胞產生的mRNA
+- 這種技術也可以改用RNA probe，去雜交染色體，把該基因的loci顯示出來，可判斷是否有缺失或是重複，**或是核型分析時作為 "彩虹辨識工具"** 🐱
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/fluorescent_in_situ_hybridization_in_human_female_karyotype_1015.webp)
+
+#### microiontophoresis
+- 利用微電流，將帶電的藥物或分子從微量玻璃電極中釋放到局部組織的方法。
+典型實驗會使用一支具有多個細小管道的 glass micropipette：
+   - 一個管道可能用來記錄神經元的電活動。
+   - 其他管道分別裝載不同的 neurotransmitters 或 pharmacological agents。
+   - 施加適當的電流，把帶電的分子從管尖推出
+   - 然後偵測突觸後神經元的電位變化
+
+> [!Note]
+> - 例如，假如說局部施加 glutamate 後，神經元產生 depolarization 或 firing rate 增加，而加入特定 receptor antagonist 後反應明顯減弱，就能支持該受體參與這個反應的推論 😗
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/microionophoresis_method_1014.png)
+
+### acetylcholine
+- **Nicotinic ACh 受體 (nAChR)**
+  - 有少部分在中樞神經，也存在於所有的骨骼肌運動終版，以及所有自律神經的神經節中
+  - 主要是離子通道，反應通常很快，直接改變膜電導
+  - 常見的antagonist包含 Curare
+- **muscarinic ACh 受體 (mAChR)**
+  - 屬於GPCR，M1、M3、M5主要偶連Gq，M2、M4主要偶連Gi
+  - 通常少參與電位興奮性變化
+  - 常見的antagonist包含 Atropine
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/overview_of_acetylcholine_receptor_types_1014.jpg)
+
+#### nAChR
+- 主要就是ligand-gated cation channel，並且有兩個ACh的結合位點，共有五個跨膜單體
+- 在結合兩個ACh時，才允許鈉離子跟鉀離子的進出 (鈉離子進，鉀離子出)，對，可以同時讓兩種離子進出
+- 一旦離子流動使膜電位超過threshold，就會產生EPSP
+
+> [!Note]
+> 部分亞型也有鈣離子通透性 🤔
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/7KOO_Alpha-7%20nicotinic%20acetylcholine%20receptor%20bound%20to%20alpha-bungarotoxin%20in%20a%20resting%20state.html" width="100%" height="1000px"></iframe>
+
+#### 作用在骨骼肌等區域的物質
+- **Botulinum toxin:** 抑制ACh的釋放囊泡形成SNARE complex
+- **curare:** 可逆性競爭性阻斷 nAChR
+- $\alpha$ **-Bungarotoxin:** 環蛇屬蛇毒中發現的三指毒素，也是競爭型阻斷，但是高親和力、極慢解離
+- **neostigmine:** 抑制AChE，重症肌無力的治療藥物之一
+
+#### mAChR
+- 經典例子就是心臟的SA node，主要是M2 mAChR
+- 副交感神經釋放ACh，但是M2 mAChR 主要的G protein是 $G_i$ 
+- $G_{\alpha i}$ 會導致PKA活性下降，同時 $G\beta\gamma$ 會活化鉀離子通道
+- 這共同導致過極化，使心跳變慢
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/7T94_Cryo-EM%20structure%20of%20S2%20state%20ACh-bound%20M2R-Go%20signaling%20complex.html" width="100%" height="650px"></iframe>
+
+### Glycine
+- Gly receptor 是中樞神經系統**重要的抑制性離子通道，尤其在脊髓與腦幹**
+- 五個亞基組成的蛋白，主要**促進 "氯離子" 進入**，抑制神經元興奮
+- **Strychnine** 是一種植物來源 (馬錢子) 的生物鹼，主要就是競爭性拮抗 GlyR，導致**disinhibition**
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/5CFB_Crystal%20Structure%20of%20Human%20Glycine%20Receptor%20alpha-3%20Bound%20to%20Strychnine.html" width="100%" height="650px"></iframe>
+
+
+### Monoamines
+- 常見的包含兒茶酚胺 (epinephrine and norepinephrine)、多巴胺 (dopamine)、血清素 (serotonin, 5-Hydroxytryptamine)
+- 通常原料來自胺基酸，並且經過酵素作用後形成
+- 在單胺類神經傳遞物有關的神經元中，有一個東西藏在軸突末端細胞質中的酵素，叫做**單胺氧化酶 (MAO)**
+- 分解之後，這些分子會再次在生化路徑上，形成多巴胺、兒茶酚胺等等
+
+
+```mermaid
+flowchart LR
+Tyr{Tyrosine<br>酪胺酸}-->|tyrosine<br>hydroxylase|LD([L-Dopa])-->|Dopa<br>decarboxylase|DA([Dopamine])-->|dopamine<br>β-hydroxylase|NE([norepinephrine<br>正腎上腺素])-->|PNMT|EPI([epinephrine])
+
+Trp{Tryptophan<br>色胺酸}-->|tryptophan<br>hydroxylase|5HTP([5-hydroxytryptophan<br>5-HTP])-->|5-HTP<br>decarboxylase|5HT([serotonin])
+
+```
+
+#### Epinephrine
+- EPI，**腎上腺髓質**分泌，也可以作為神經系統的訊號分子，對 $\alpha$ 跟 $\beta$ receptor都有作用 (尤其是 $\beta_2$ )
+
+#### norepinephrine
+- **交感神經節後神經元**的重要 neurotransmitter，也可由腎上腺髓質分泌，對 $\beta_2$ 作用相對較弱，而其他的 $\alpha$ 跟 $\beta$ receptor也一樣可以作用
+
+#### receptor: a closer look
+- 分為 $\alpha_1, G_q$  、  $\alpha_2, G_i$ 、 $\beta_1, G_s$ 、 $\beta_2, G_s$
+、 $\beta_3, G_s$ ，主要五種
+
+#### $\alpha_1$
+- $G_q$ 活化造成的效果是 IP3 + DAG 生成，IP3可以促進smooth ER釋放鈣離子
+- 鈣離子與 **calmodulin** 結合後活化 myosin light-chain kinase (MLCK)，**促進肌球蛋白輕鏈磷酸化，讓平滑肌收縮**
+- 而DAG可以活化PKC，參與後續反應
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/G-protein_types_in_G-protein_coupled_receptor_1007.png)
+
+#### 給個整理 🐱
+
+| 器官／組織     | 主要受體        | 活化後的典型效應                                  |
+| --------- | ----------- | ----------------------------------------- |
+| 🫀 心臟     | β₁、β₂、α₁    | β₁：心率、收縮力、傳導增加；β₂ 也可促進心臟活動；α₁ 可參與心肌訊號調控   |
+| 🩸 血管平滑肌  | α₁、α₂、β₂    | α₁：血管收縮；α₂：可促進部分血管收縮；β₂：部分血管舒張            |
+| 🫁 支氣管    | β₂          | 平滑肌舒張、支氣管擴張                               |
+| 👁️ 眼睛    | α₁、β        | α₁：虹膜 radial muscle 收縮、瞳孔放大；β 受體參與房水生成等調控 |
+| 🧠 中樞神經系統 | α₁、α₂、β₁、β₂ | 依腦區與細胞而異；α₂ 可抑制部分神經元放電與 NE 釋放             |
+| 🫘 腎臟     | β₁、α₁、α₂    | β₁：renin 釋放增加；α 受體參與腎血管張力與腎小管功能調節         |
+| 🥩 肝臟     | α₁、β₂       | 促進 glycogenolysis、gluconeogenesis，增加葡萄糖供應 |
+| 🍬 胰臟     | α₂、β₂       | α₂：抑制 insulin 分泌；β₂：可促進 insulin 分泌        |
+| 🧈 脂肪組織   | β₁、β₃、β₂、α₂ | β 受體促進脂解；α₂ 在部分脂肪組織中抑制脂解                  |
+| 🍽️ 胃腸道   | β₂、α₂、α₁    | β₂：腸壁平滑肌舒張；α₁：部分括約肌收縮；α₂ 可抑制神經傳遞與分泌       |
+| 🚽 膀胱     | β₃、α₁       | β₃：逼尿肌舒張；α₁：膀胱頸及部分尿道平滑肌收縮                 |
+| 🧬 前列腺／尿道 | α₁A、α₁D 等   | 平滑肌收縮；α₁ blockers 可改善良性前列腺增生造成的排尿症狀       |
+| ♀️ 子宮     | β₂、α₁       | β₂：平滑肌舒張；α₁：部分條件下促進收縮                     |
+| 🧴 皮膚     | α₁          | 立毛肌收縮；皮膚血管收縮                              |
+| 💪 骨骼肌血管  | β₂、α₁       | β₂ 可促進舒張；α₁ 可促進收縮，淨效應取決於受體活化程度與生理狀態       |
+
