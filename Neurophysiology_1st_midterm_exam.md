@@ -1099,8 +1099,7 @@ Trp{Tryptophan<br>色胺酸}-->|tryptophan<br>hydroxylase|5HTP([5-hydroxytryptop
 - **交感神經節後神經元**的重要 neurotransmitter，也可由腎上腺髓質分泌，對 $\beta_2$ 作用相對較弱，而其他的 $\alpha$ 跟 $\beta$ receptor也一樣可以作用
 
 #### receptor: a closer look
-- 分為 $\alpha_1, G_q$  、  $\alpha_2, G_i$ 、 $\beta_1, G_s$ 、 $\beta_2, G_s$
-、 $\beta_3, G_s$ ，主要五種
+- 分為 $\alpha_1, G_q$  、  $\alpha_2, G_i$ 、 $\beta_1, G_s$ 、 $\beta_2, G_s$ 、 $\beta_3, G_s$ ，主要五種
 
 #### $\alpha_1$
 - $G_q$ 活化造成的效果是 IP3 + DAG 生成，IP3可以促進smooth ER釋放鈣離子
