@@ -1128,3 +1128,490 @@ Trp{Tryptophan<br>色胺酸}-->|tryptophan<br>hydroxylase|5HTP([5-hydroxytryptop
 | 🧴 皮膚     | α₁          | 立毛肌收縮；皮膚血管收縮                              |
 | 💪 骨骼肌血管  | β₂、α₁       | β₂ 可促進舒張；α₁ 可促進收縮，淨效應取決於受體活化程度與生理狀態       |
 
+#### dopamine
+- 多巴胺能主要的作用區域包含: 
+  - 黑質紋狀體多巴胺系統: 主要包含動作控制
+  - 中腦邊緣迴路多巴胺系統: 主要控制情緒獎勵
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/overview_of_dopamine_pathways_1029.jpg)
+
+##### nigrostriatal
+- 黑質 (substantia nigra) 屬於基底核的一部份，投射dopaminergic 神經元到紋狀體 (striatum)
+- 主要就是負責控制，以及啟動身體運動
+- Parkinson disease就是黑質神經元死光導致的
+  - 治療方式包含補充 L-dopa (可穿過BBB)、單胺氧化酶抑制劑 (MAOIs)
+
+```mermaid
+flowchart LR
+
+AC([Association cortex<br>聯合皮層])
+SN([黑質])-->|Da|Cp([caudate/putamen<br>尾狀核or殼核])
+AC-->|Glu|Cp
+
+Cp-->|GABA|Gp([Globus pallidus<br>蒼白球])-->|GABA|Th([丘腦<br>會合])-->|Glu|PC([運動皮質])
+```
+##### mesolimbic
+- 中腦也會向前腦投射dopamine，這被稱為中腦邊緣迴路 (aka reward system)
+- 和成癮行為 (alcohol、nicotine、amphetamine、etc) 相關
+  - 思覺失調症 (schizophrenia) 被認為跟多巴胺在該系統太多造成，以dopamine antagonist為治療方式
+  - 注意力不足過動 (ADHD) 被認為是跟多巴胺在該系統的濃度，以NDRI (off-label) 或少量興奮劑為治療方式
+
+#### norepinephrine
+- 在CNS跟PNS都常常出現
+- 主要作用在周圍神經時，交感神經的節後神經元釋放，這些會釋放給平滑肌、心肌跟腺體
+- 如果是作用在中樞神經，就是促進清醒 (這就是amphetamine讓你睡不著的原因)
+
+#### serotonin
+- 也被稱為5-羥色胺，5-hydroxytrypamine，5-HT
+- 在中樞神經主要為中縫核 (raphe nuclei, 位於腦幹中部) 使用，受體種類 "超級多" (你絕對不會想記起他們 🙂)
+- 合成來自tryptophan (色胺酸)，調控情緒跟食慾
+- LSD等藥物是相關受體 (尤其是5-HT2) 的促效劑
+- SSRIs被用來治療抑鬱症，例如fluoxetine (Prozac) 
+
+#### 單胺氧化酶抑制劑
+- 單胺氧化酶會分解單胺類的神經傳遞物，因此其抑制劑，可以間接增加單胺類神經傳遞物的水平
+- MAOIs曾廣泛用於治療depression、恐慌症、焦慮、PD等
+- MAOIs可能跟某些藥物或是食物有交互作用，這可能造成危險的症狀，例如高血壓等等
+
+### amino acid
+#### glutamate
+- 最常見的中樞神經興奮型傳遞物，就是麩胺酸 (Glu)
+- 在大腦皮質裡面，他貢獻了 80% 的 EPSPs
+- 當星狀細胞從突觸間隙捕捉到不少Glu時，他會增加大腦的血流量，提高glucose uptake
+
+#### Glu receptor
+- 包含三種，這三種受體都有ion channels的功能: 
+  - NMDA 受體
+  - AMPA 受體
+  - Kainate 受體
+- 其中，NMDA跟AMPA的合作，就是LTP (長期增強作用) 的分子生物學機制，尤其至NMDA需要移除鎂離子才能活化
+
+#### Glycine and GABA
+- 這些主要提供IPSPs，例如Glycine主要就是打開 $Cl^-$ channel，使氯離子流入，導致過極化
+- 這種IPSP其實可以作為 "運動收縮調節"，例如三頭肌收縮時，二頭肌放鬆
+- 放鬆橫膈膜是呼吸非常需要的動作，所以要是橫膈膜無法放鬆的話...
+
+> [!Warning]
+> - AHHHHHHHH help---- 😱
+> - *asphyxiation* 💀
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/Opisthotonus_in_a_patient_suffering_from_tetanus--Painting_by_Sir_Charles_Bell_in_1809_1029.jpg)
+
+- GABA在大腦中，近乎三分之一的神經元都有使用，一樣會促進氯離子開啟，導致過極化
+- 小腦中GABA能神經元的退化跟死亡，是Huntington disease的原因之一
+
+### Endocannabinoids and nitric oxide
+#### 內源大麻素
+- 內源大麻素的受體也是GPCR，他的分布是數一數二廣，主要原因是因為他會影響 "其他神經元" 的開關
+- 例如 GABA、glutamate 跟 ACh 的調控，很多的背景都有內源大麻素受體的幫助
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/retrograde_signaling_with_endocannabinoids_1029.png)
+
+#### 一氧化氮
+- 一氧化氮的前驅物為arginine，他的傳輸不需要囊泡
+
+> [!Tip]
+> - 沒有透過囊泡運輸的神經傳遞物: 內源大麻素 (短鏈脂肪酸)、一氧化氮 (氣體) 😏
+
+- 其跟受體反應後，下游的第二信使為cGMP，調控鈣離子進出
+- 主要控制平滑肌縮放，尤其是cGMP濃度高時，平滑肌偏向放鬆
+- sildenafil主要是PDE5 inhibitor，抑制cGMP的分解，PDE5主要分布在肺臟或是陰莖的血管平滑肌
+
+<iframe src="https://Jacklyn301.github.io/molecular_model/1UDT_Crystal%20structure%20of%20Human%20Phosphodiesterase%205%20complexed%20with%20Sildenafil.html" width="100%" height="600px"></iframe>
+
+
+### Polypeptides
+- 例如CCK (cholecystokinin，膽囊收縮素)，參與飽足感的調控
+- Substance P: 和痛覺有關係
+
+#### opioid
+- 大腦跟腦垂腺可以分泌內啡肽或是強啡肽等物質 (如enkephalins, endorphins, and dynorphins)
+- 這些物質作用在 $\mu$ opioid 受體上，可以減緩疼痛
+- 他也會間接影響 (去抑制) 中腦邊緣迴路，產生欣快感 (euphoria)
+
+> [!Note]
+> - 可能跟跑者的快樂心情也有關係? 🤣
+
+#### Neuropeptide Y
+- 介導壓力反應、晝夜規律、心血管調控等等，在海馬迴可以抑制glu的釋放
+- 是一種 "超強烈餓肚子物質"，leptin會透過意志神經肽Y，來抑制食慾
+
+---
+
+## week 6
+### 前情提要 🐱
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/mammalian_brain_size_and_shape_comparison_1029.png)
+
+#### 軸向分布
+- 在發育學或是解剖學上，一個個體共有三個軸，因此分成了六個方向: 
+- 背腹軸
+  - 背側 (dorsal)
+  - 腹側 (ventral)
+- 前後軸
+  - 前側 (anterior, rostral)
+  - 後側 (posterior, caudal)
+- 內外區分
+  - 外側 (lateral)
+  - 內側 (medial)
+
+#### 下刀方式
+- 假如說你現在在切腦子，切的方式不一樣，也有不同說法，通常包含: 
+  - 縱切 (midsagittal)
+  - 橫切 (horizontal)
+  - 環切 (coronal)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/anatomical_axial_reference_and_planes_of_section_in_rat_brain_1029.png)
+
+#### gray and white matter
+- 脊髓內部是灰質，外側是白質
+- 大腦內部是白質，外層是灰質
+- 脊椎骨上的孔洞就是神經束穿過的地方
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/gray_and_white_matter_in_brain_and_spinal_cord_1029.jpg)
+
+### 胚胎發育學了解下
+#### 神經管
+- 胚胎的神經系統來自於神經管，而神經管的源頭為外胚層 (ectoderm) 的神經板 (neuro plate) 凹陷形成
+- 基本上都是由細胞骨架的重組控制的，尤其涉及到microtubules跟actin filaments
+- 微管延伸，垂直拉長神經板上的細胞
+- 同時，背側的微絲收縮，使細胞成梯形，產生凹陷，產生神經溝跟神經嵴
+- 細胞骨架同時也控制細胞群的壓縮 (convergent) 跟拉長 (extension)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/change_in_cell_shape_during_morphogenesis_0410.png)
+
+- 神經管形成大腦跟脊髓
+- 中胚層會在神經管周圍形成體節 (somites)，體節周圍也有骨骼肌，幫助軀體整體運動
+- 神經嵴細胞可能會部份遷移，形成其他組織，例如周邊神經需要的節後神經元
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/formation_of_the_neural_tube_and_neural_crest_in_embryo_1029.png)
+
+#### 神經管缺陷 (Neural Tube Defects, NTDs)
+
+> [!Tip]
+> ##### 簡單來說就是
+> - 前端（rostral/anterior neuropore）關不起來 → Anencephaly
+> - 後端（caudal/posterior neuropore）關不起來 → Spina bifida
+
+- 任何一端的神經管沒有閉合成功，都會出現問題 😗
+
+#### 神經管關閉失敗圖鑑整合 🤣💀
+##### Craniorachischisis
+- 顱脊裂，腦沒有形成，脊髓沒有關好
+- 顱部與脊柱方向都有大範圍開放性缺陷 (阿阿阿背後跟頭部都翻出來了 💀)
+- 致死性畸形 (廢話)
+
+##### Anencephaly
+- 無腦症，Rostral neuropore (前神經孔) 閉合失敗，導致前腦區域無法正常發育
+- 前神經孔未關閉 → 前腦暴露於羊水 → 神經組織退化 → 大部分大腦與顱骨缺失
+- 通常命短
+
+##### Encephalocele
+- 腦膨出，通常是腦膜，有時連同腦組織，由於顱骨缺損，向外突出形成的囊狀結構 (泡泡 🙂)
+- 沒有大範圍露出但是也可說是腦殼破洞了（？）
+
+##### Iniencephaly
+- 寶寶頭向後折到誇張角度 (外星人變異? 💀)
+- 伴隨枕骨及頸椎區域的嚴重發育異常、缺損、頸部縮短導致
+
+##### Spina bifida occulta
+- 隱性脊柱裂，也就是部分椎弓沒有正常融合，椎骨破一個洞
+- 但是皮膚通常完整覆蓋，周圍無畸形跟異常，許多人沒有明顯症狀，可能偶然在影像檢查中發現
+
+##### Closed spinal dysraphism
+- 閉合型脊柱發育異常，開始有神經管發育異常，部份情況有黃色脂肪組織 (脂肪瘤堆積)
+- 脊柱後方骨骼或軟組織的其他異常，但是沒有組織暴露
+
+##### Meningocele
+- 脊膜膨出，腦膜經由椎骨缺損向外突出，形成囊狀結構 (泡泡 🙂🙂)
+- 通常脊髓組織不會移位，只有腦脊髓液的堆積
+
+#### Myelomeningocele
+- 脊髓脊膜膨出，也就是腦膜、腦脊液、脊髓神經全部一起鼓出來，也稱為 **"開放性脊柱裂"**
+- 常常伴隨下肢無力、感覺缺失、膀胱功能異常等
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/overview_of_neural_tube_defects_situation_1029.jpg)
+
+### 大腦發育
+- 包含三大區域: 前腦 (forebrain)、中腦 (midbrain) 跟後腦 (hindbrain)
+- 這些區域在胚胎發育時，來自神經管前端 (anterior)
+- 前腦包含嗅球，以及睡眠、學習等等我們常第一時間想到的大腦功能
+- 中腦協調感覺輸入的一部份
+- 後腦包含非自主的活動 (例如呼吸節律)，以及運動協調
+- 其中，前腦和後腦再細分，形成五個次級腦泡（secondary brain vesicles）
+
+#### 三腦分化成五個腦泡
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/embryonic_brain_development_0413.png)
+
+- 早期的大腦剛分化出來時，看起來有點像蘑菇 🍄
+- forebrain形成telecephalon、diencephalon
+- midbrain形成mesencephalon
+- hindbrain形成metencephalon、myelencephalon
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/three_primary_brain_vesicles_five_secondary_brain_vesicles_and_early_development_of_the_eye_1029.png)
+
+#### 視神經的分類
+- 視神經（optic nerve, CN II）是由 **diencephalon（間腦）發育而來的神經管衍生結構**，不是一般由周邊神經前驅細胞形成的典型周邊神經。
+
+> [!Note]
+> - 這也是為什麼在神經解剖學上，視神經通常被視為中樞神經系統（CNS）的一部分
+
+- 間腦會延伸出optic vesicle (視泡)
+- 然後視泡會進一步分化出視柄 (optic stalk，形成視神經) 跟視杯 (optic cup，形成視網膜)
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/development_of_the_eye_from_optic_vesicle_to_optic_nerves_and_retina_1029.jpg)
+
+### 5 brain vesicles: a closer look
+#### forebrain
+##### 端腦 (telencephalon)
+- 主要形成大腦半球、嗅球、側腦室、白質等
+
+##### 間腦 (diencephalon)
+- 主要形成上視丘、視丘、下視丘、底丘腦區、以及視神經和視網膜
+
+> [!Note]
+> - 側腦室也連接第三腦室，第三腦室主要和間腦有關係
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/simple_structural_features_of_the_forebrain_1029.png)
+
+#### midbrain
+##### 中腦 (mesencephalon)
+- 腦幹最上方的部分，位於間腦與橋腦之間
+- 包含幾個構造，例如頂蓋 (tectum)、被蓋 (tegmentum)、PAG、紅核等
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/cross-section-of-the-mesencephalon-anatomy_1029.jpg)
+
+- **tectum**
+  - 分為上丘跟下丘 (superior and inferior colliculus)
+  - 前者跟眼球快速跳視有關，後者參與接收腦幹聽覺路徑的信號
+- **Periaqueductal gray**（PAG，中腦導水管周圍灰質）
+  - 包圍 cerebral aqueduct，是疼痛調控的重要節點
+  - 能招募下行疼痛調控系統，也參與防禦行為與自主神經反應
+- **Cerebral aqueduct** (大腦導水管)
+  - 連接第三腦室與第四腦室，讓腦脊髓液通過
+  - 若導水管狹窄或阻塞，可能造成非交通性水腦症
+- **substantial nigra** (黑質)
+  - 多巴胺神經元參與 nigrostriatal pathway，調控基底核的動作迴路
+  - 黑質緻密部的多巴胺神經元退化與 Parkinson's disease 密切相關
+
+#### hindbrain
+##### 後腦 (metencephalon)
+- 主要背側形成小腦 (cerebellum)，腹側形成橋腦 (pons)
+
+##### 末腦 (myelencephalon)
+- 主要形成medulla oblongata（延髓）和 pyramids（錐體）
+
+ > [!Note]
+> - 後腦跟末腦的空腔連接，形成第四腦室
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/differentiation_of_the_rostral_and_caudal_hindbrain_1029.png)
+
+#### orticospinal tract
+- 皮質脊髓束，這條路徑負責將大腦皮質發出的運動指令傳往脊髓，參與隨意運動，尤其是精細的肢體動作
+- 多數神經 (80%) 在錐體這裡產生交叉 (decussate)，所以感覺右側的腦區，主要是在左腦
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/corticospinal_tract_outline_1029.webp)
+
+### spinal cord: a closer look
+- 脊髓中央呈蝴蝶形或 H 形的區域是灰質，主要包含神經元胞體、樹突、突觸及局部神經纖維；外圍的白質則以有髓軸突束為主。
+- 方向要先認清：
+  - Dorsal（背側）：靠近背部，通常是感覺訊息進入脊髓的一側
+  - Ventral（腹側）：靠近腹部，運動訊息由此側的運動神經元輸出
+  - Intermediate zone（中間區）：介於背角與腹角之間，主要分布中間神經元 (interneuron)
+- 中間的canel就是髓腔
+
+> [!Tip]
+> - **背入腹出** 🐱
+
+#### Ventricular system（腦室系統）
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/the_basic_plain_of_brain_major_structure_and_ventricular_system_1029.png)
+
+- 由彼此連通的腦室構成的腔室系統，與 cerebrospinal fluid（CSF，腦脊髓液）的產生、流動及循環密切相關
+  - **Lateral ventricles**，側腦室，左右大腦半球各一個
+  - **Interventricular foramina**，室間孔，連接側腦室與第三腦室
+  - **Third ventricle**，第三腦室，位於間腦區域
+  - **Cerebral aqueduct**，大腦導水管，穿過中腦，連接第三與第四腦室
+  - **Fourth ventricle**，第四腦室，位於腦橋、延髓與小腦之間
+  - **Central canal**，中央管，向尾側延伸進入脊髓，與第四腦室相連續
+- 這也和我們前面學的腦泡發育接得起來：
+  - Telencephalon（端腦） → 左右側腦室
+  - Diencephalon（間腦） → 第三腦室
+  - Mesencephalon（中腦） → 大腦導水管
+  - Metencephalon、myelencephalon（後腦泡與末腦泡） → 第四腦室相關區域
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/overview_of_ventricular_system_1029.jpg)
+
+- 在**脈絡叢 (choroid plexus)** 形成腦脊髓液，然後從側腦室一路流到中央管
+- 然後他會透過**蛛網膜下腔 (在軟腦膜跟蛛網膜之間，這區域環繞腦與脊髓)** 回流
+- 並且最後透過蛛網絨毛跟蛛網顆粒被吸收，回流至靜脈循環
+- 如果回流時出問題，或是某些canal堵塞，可能會導致水腦症，進而壓迫到周圍神經
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/meninges_0424.png)
+
+---
+
+## week 7
+### 大腦皮質簡介
+- **cerebrum**，主要由端腦形成，這一下就佔了腦的8成體積
+- 左右腦半球由**胼胝體 (corpus callosum)** 連接
+- 外層的灰質大概有2-4 mm厚
+- 表面有突起的褶皺，也就是 "迴" (gyrus) ，並且褶皺間由大溝 (sulcus) 分隔
+- 兩者相加又被稱為concolutions
+- 透過sulcus把大腦皮質分為幾個 "葉" (lobe)，包含: 
+  - 額葉 (frontal)
+  - 頂葉 (pariental)
+  - 顳葉 (temporal)
+  - 枕葉 (occipital)
+  - 島葉 (insula) 
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/lobes_sulcus_and_gyrus_of_cerebrum_structure_1029.png)
+
+#### 六層皮質
+- 大腦皮質有六層，由外而內為:
+  - 分子層，**molecular layer**，少量神經元
+  - 外顆粒層，**external granular layer**，小型星狀細胞跟顆粒細胞
+  - 外錐體層，**external pyramidal layer**，中小型椎體細胞
+  - 內顆粒層，**internal granular layer**，密集顆粒細胞
+  - 內錐體層，**internal pyramidal layer**，大型Betz錐體細胞
+  - 多形細胞層，**polymorphic layer**，多型態神經元
+
+> [!Important]
+> ##### inside-out
+> - 大腦在分化過程中，stem cell本身位於神經管內側，然後在分化時遷移到外部，逐漸形成六層腦皮質
+> - 越底下的layer，越早先分化，年齡越老 😲
+
+![image alt](https://media-us.amboss.com/media/thumbs/big_5c9b839e6674b.jpg)
+
+### 功能區域
+- 額葉主要做認知整理等功能，其中左腦額葉區的 Broca's area 負責讓人有辦法進行講話的動作
+- 顳葉主要進行感官的 "詮釋"，例如對某種聲音或是記憶的看法，額葉一個區域主要就是處理聽覺信號的
+- 額葉跟頂葉的交界處有兩塊皮質: 
+  - 運動皮質: 主要進行並調控骨骼肌 (隨意肌) 的運動
+  - 感覺皮質: 負責整合感覺神經元的信號
+- 頂葉跟顳葉交會處的 Wernicke's area 負責讓大腦 "聽得動別人跟自己在說什麼，表達什麼"
+- 枕葉主要處理視覺，還有透過視覺的辨識功能
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/functional_region_of_cerebrum_1029.png)
+
+#### 鏡像神經元
+- Gallese 等人在 1996 年，對一隻猴子進行實驗並偵測
+- F5 (額葉第五區) 屬於執行運動功能的神經元
+- 通常來說，只要動物做某些行為 (或著 "看到對方做某些行為")，這個區域就會放電
+
+> [!Tip]
+> - 這被認為是 "鏡像神經元" 所造成的放電
+
+- mirror neuron 其實在頂葉也有出現
+- 這些神經元也跟腦島、扣帶迴 (cingulate gyrus) 連結，因此被認為跟情緒也有關係
+- 這也是 "模仿" 的重要神經元之一，因此，語言的學習也需要鏡像神經元
+- 被推測跟自閉症有相關性
+
+#### 用多少運動跟感覺皮質
+- 下圖中，可以發現手部的運動皮質跟感覺皮質的占用面積還挺大的
+- 也就是說，你的體表體積跟所謂的 "占用的皮質體積" 並非呈現正相關
+- 越精細的感受，所使用的大腦皮質區域就越多
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/somatosensory_and_motor_cortex_0413.png)
+
+#### 裂腦手術
+- 通常是為了治療難治型癲癇，因此切開胼胝體
+- 研究者後來利用這些患者，探索一個很有趣的問題: 
+
+> [!Note]
+> - 如果左右半球失去主要的直接溝通管道，它們還能不能共同完成一個任務？ 🤔
+
+- 患者在日常生活中往往沒有明顯到一眼就能看出的變化
+- 這反而讓研究者好奇... 胼胝體到底做了什麼？
+
+#### 實驗介紹
+- 研究者讓患者盯著螢幕中央的十字，然後在十字的左側或右側快速閃現圖片或單字
+- 為什麼要這麼麻煩？因為視覺系統有一個重要特性...
+  - 右側視野 (right visual field)  的資訊主要送往左半球
+  - 左側視野 (left visual field) 的資訊主要送往右半球
+
+##### 情況1
+- 假設研究者把一個蘋果的圖片閃現在患者的左側視野
+  - 刺激出現在左側視野，資訊主要送往右半球
+  - 患者的右半球可以處理這張圖片，但因為胼胝體被切斷，資訊無法像一般情況下那樣直接傳給負責語言輸出的左半球
+
+> [!Tip]
+> - 實驗者: 「你看到了什麼？」🤔
+> - 患者: 「什麼都沒有。」🙂
+
+##### 情況2
+- 研究者讓患者用左手摸出一個物體，或從一堆物品中選出與圖片相符的物件
+- 這個時候患者可以準確地選出蘋果 😲
+
+> [!Note]
+> - 目前認為，幾乎所有人的大腦 "主要擅長的功能分布" 都類似，無論你是左撇子還是右撇子
+>   - **Right hemisphere**: 視覺空間、辨識人臉、閱讀地圖的能力
+>   - **Left hemisphere**: 語言能力、分析能力、運算、描述視覺跟聽覺的能力
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/Sherry_split_brain_study_in_1968_1029.png)
+
+### 進一步整理語言能力
+#### Broca's area
+- 主要控制人說話
+- 如果出現問題，會出現 "nonfluent-aphasia"，並非病患不懂語言，而是講不出來，導致本身的語言功能不流暢
+
+#### Wernicke's area
+- 主要跟 "外部語言理解" 有關
+- 如果出現問題會導致 "fluent-aphasia"，患者可以講話流暢快速，但是內容本身沒有意義，同時寫作能力也會缺失
+
+> [!Note]
+> - 這也被稱為 "word salad"，語言混亂 🤣
+
+#### 傳導性失語
+- 患者聽得懂別人說話，也可以流利的自發說話，但是難以重複別人剛說的句子
+- 主要是因為弓狀束 (arcuate fasciculus) 的損傷導致
+
+### thalamus
+- 第三腦室周圍的灰質團塊，主要都是由視丘構成
+- **除了嗅覺外**，所有感覺都要先經過這個中繼中心，才可以傳遞到大腦
+- Intralaminar nuclei (板內核) 促進從睡眠中醒過來並保持警覺
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/thalamus_structure_1030.jpg)
+
+#### 上視丘
+- 包含**脈絡叢 (choroid plexus**)，分泌腦脊髓液
+- **松果體 (pineal gland)**，負責接收**視交叉上核 (suprachiasmatic nucleus)** 的晝夜規律訊號，並且分泌褪黑激素
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/melatonin-hormone-molecule-structure_1030.jpg)
+
+#### 下視丘
+- 主要調控恆定 (包含體溫、腦垂體的激素分泌調控)，以及自律神經系統
+- 也包含飢餓、飽足以及口渴、性喚起的調控
+- 同時包含神經以及內分泌的調控跟整合功能
+
+> [!Note]
+> - 情緒的調控主軸為 "邊緣系統"，其中，**下視丘的一部份，也隸屬邊緣系統**
+
+- 腦垂腺後葉基本上就是下視丘的延伸，因此後葉的調控直接就是來自於下視丘的神經信息
+- 相反，腦垂腺前葉，跟下視丘之間的信號傳遞，主要是以血液 (門脈循環) 中的激素為主
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/structure_of_hypothalamus_and_pituitary_gland_1030.png)
+
+#### 腦下垂體
+- 腦垂體後葉就是下視丘的延伸，他有類似 "儲存" 激素的功能，下視丘對於後葉的控制，是神經介導的 (neurohypophysis)，常見的激素包含vesopressin (ADH)、oxytocin 等神經肽
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/image_bank/main/neuropeptides_0502.png)
+
+- 腦垂腺前葉本身就是一種內分泌腺，下視丘對於前葉的控制，是激素介導的 (adenohypophysis)
+
+#### 晝夜規律
+- 視交叉上核裡面有不少細胞 (Suprachiasmatic nuclei, SCN)，偵測日夜節律，週期為24小時，早上活性高，晚上活性低
+- 它的節律會調控上視丘的松果體，影響褪黑激素的分泌
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/location-of-suprachiasmatic-nucleus-thalamus-lateral-geniculate-nucleus-and-pineal-gland-in-the-brain.webp)
+
+### midbrain
+- 位於間腦跟橋腦之間
+- **四疊體** (corpora quadrigemina)
+  - **上丘** (superior colliculi): 主導視覺反射
+  - **下丘** (inferior colliculi): 主導聽覺反射
+- **腦腳** (cerebral peduncles)，包含上行束 (ascending tract) 跟下行束 (descending tract)
+- **紅核**: 連結大腦跟小腦
+
+![image alt](https://raw.githubusercontent.com/Jacklyn301/2_image_bank/main/human_midbrain_anatomy_structure_1030.webp)
+
